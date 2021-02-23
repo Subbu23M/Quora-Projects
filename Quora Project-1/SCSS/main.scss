@@ -1,0 +1,100 @@
+// Colors
+$formColor:#f9dc5c;
+$navColor:#ffe94e;
+
+// Universal Affects
+
+li {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    // width: 1200px;
+    // height: 120px;
+    // background-color:whitesmoke;
+
+    .logo{
+        p{
+            margin-top: -12px;
+            color: goldenrod;
+        }
+    }
+}
+
+nav{
+    width: 1100px;
+    height: 30px;
+    margin: 0 auto;
+    // background-color: goldenrod;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.3rem;
+
+        li a{
+            color: #191716;
+            text-transform: uppercase;
+            background-color: $navColor;
+            padding: 0.4rem;
+
+            &:hover{
+                color: black;
+            }
+        }
+        
+    }
+}
+
+hr{
+    height: 5px;
+    width: 1100px;
+    background-color:gray;
+    margin-top: 5px;
+}
+
+main{
+    .form{
+        background-color: $formColor;
+
+        input{
+            width: 270px;
+            height: 45px;
+            border: 2px solid gray;
+            color: teal;
+        }
+
+        textarea{
+            width: 300px;
+            height: 130px;
+            border: 2px solid gray;
+        }
+    }
+}
+
+footer{
+    width: 1110px;
+    height: 85px;
+    background-color: cadetblue;
+}

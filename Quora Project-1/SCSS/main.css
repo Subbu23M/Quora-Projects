@@ -1,0 +1,87 @@
+li {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .logo p {
+  margin-top: -12px;
+  color: goldenrod;
+}
+
+nav {
+  width: 1100px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1.3rem;
+}
+
+nav ul li a {
+  color: #191716;
+  text-transform: uppercase;
+  background-color: #ffe94e;
+  padding: 0.4rem;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+hr {
+  height: 5px;
+  width: 1100px;
+  background-color: gray;
+  margin-top: 5px;
+}
+
+main .form {
+  background-color: #f9dc5c;
+}
+
+main .form input {
+  width: 270px;
+  height: 45px;
+  border: 2px solid gray;
+  color: teal;
+}
+
+main .form textarea {
+  width: 300px;
+  height: 130px;
+  border: 2px solid gray;
+}
+
+footer {
+  width: 1110px;
+  height: 85px;
+  background-color: cadetblue;
+}
+/*# sourceMappingURL=main.css.map */
